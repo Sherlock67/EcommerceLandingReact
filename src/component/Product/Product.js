@@ -3,7 +3,7 @@ import React from 'react';
 import './Product.css';
 import { faCoffee,faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 const Product = (props) => {
-    console.log(props.product);
+    //console.log(props.product);
     const {name,img,seller,price,ratings} =props.product; 
   
     return (
